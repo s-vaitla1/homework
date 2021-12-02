@@ -3,7 +3,6 @@
     display: inline;
     margin: 0.5em;
     font-size: 1.5em;
-
 }
 
 .navbar a {
@@ -17,9 +16,11 @@
 
 .navbar nav {
     background-color: black;
+    display: flex;
+    min-height: 5vh;
 }
 
-.navbar ul {
+.navbar .nav-links {
     margin-left: 0;
     padding: 0;
 }
